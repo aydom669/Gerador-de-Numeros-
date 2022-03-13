@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); }
+  body .main {
+    width: 80%;
+    height: 50vh;
+    padding: 10px 20px; }
+    body .main .contador__box {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 2fr;
+      text-align: center;
+      width: 100%;
+      background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+      color: #fff; }
+      body .main .contador__box .cont__painel {
+        padding: 20px;
+        cursor: pointer; }
+    body .main .btn__sortea {
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+      color: #fff;
+      border: none; }
+
+/*# sourceMappingURL=style.css.map */
