@@ -18,7 +18,6 @@ body{
 
         .contador__box{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 2fr;
             text-align: center;
             width: 100%;
@@ -29,6 +28,7 @@ body{
             .cont__painel{
                 padding: 20px;
                 cursor: pointer; 
+                letter-spacing: 3px;
             }
         }
 

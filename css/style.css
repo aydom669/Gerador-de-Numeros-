@@ -15,7 +15,6 @@ body {
     padding: 10px 20px; }
     body .main .contador__box {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 2fr;
       text-align: center;
       width: 100%;
@@ -23,7 +22,8 @@ body {
       color: #fff; }
       body .main .contador__box .cont__painel {
         padding: 20px;
-        cursor: pointer; }
+        cursor: pointer;
+        letter-spacing: 3px; }
     body .main .btn__sortea {
       width: 100%;
       margin: 0 auto;
