@@ -13,30 +13,40 @@ body{
 
     .main{
         width: 80%;
-        height: 50vh;
+        min-height: 100vh;
         padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
         .contador__box{
-            display: grid;
-            grid-template-rows: 2fr;
+            display: flex;
+            flex-direction: column;
             text-align: center;
             width: 100%;
             background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
             color: #fff;
+            padding: 20px 20px;
             
+            label{
+                font-size: 25px;
+                padding: 10px;
+            }
 
             .cont__painel{
                 padding: 20px;
                 cursor: pointer; 
-                letter-spacing: 3px;
+                letter-spacing: 1px;
+                
             }
         }
 
         .btn__sortea{
             width: 100%;
-            margin: 0 auto;
+            margin: 25px auto;
             padding: 10px 20px;
-            background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+            background-image: linear-gradient(60deg, #2a6bb6 0%, #485563 100%);
             color: #fff;
             border: none;
         }
